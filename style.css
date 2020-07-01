@@ -39,6 +39,18 @@ height:700px ;
   border-radius: 5px;
   color: white;
 }
+
+.profile img{
+  height: 500px;
+  background-color: #F6F8FE;
+  border-radius: 71% 74% 74% 0% / 97% 84% 0% 17%    ;
+}
+.bio-pic img{
+  height: 500px;
+  background-color: gainsboro;
+  clip-path: polygon(100% 0,100% 75%,50% 100%,0 75%,0 0); 
+  border-radius: 50px;
+}
 .biography{
   background-image: url(images/biography-bg.png);
   background-repeat: no-repeat;
@@ -69,13 +81,11 @@ height:700px ;
     padding: 150px 50px;
 }
 .latest-work{
-  /* width: 100%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  align-content: center; */
-  /* transform: translateX(10%); */
-  text-align: center;
+  background-image: url(images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-position: top;
+    background-size: 100% 51%;
+    text-align: center;
   padding: 50px 15px;
 }
 .latest-work img{
@@ -118,6 +128,13 @@ height:700px ;
   line-height: 2.5rem;
   border-radius: 10px;
   color: white;
+}
+footer{
+  background-image: url(images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: 106% 88%;
+  background-position: 161% 216%;
+  
 }
 footer p{
   text-align: center;
