@@ -13,13 +13,12 @@ height:700px ;
 .intro{
   background-image: url(images/header-bg.png);
   background-repeat: no-repeat;
-  /* background-position:top; */
   background-size: 100% 100%;
 
 }
 .intro h3{
   font-size: 30px;
-  /* line-height: 40px; */
+  
 }
 .intro h1{
   font-size: 40px;
@@ -29,6 +28,7 @@ height:700px ;
 }
 .intro p{
   padding: 30px 0;
+  color: #838383;
   
 }
 .intro a, .biography a{
@@ -38,6 +38,18 @@ height:700px ;
   border-radius: 5px;
   color: white;
 }
+
+.profile img{
+  height: 500px;
+  background-color: #F6F8FE;
+  border-radius: 71% 74% 74% 0% / 97% 84% 0% 17%    ;
+}
+.bio-pic img{
+  height: 500px;
+  background-color: gainsboro;
+  clip-path: polygon(100% 0,100% 75%,50% 100%,0 75%,0 0); 
+  border-radius: 50px;
+}
 .biography{
   background-image: url(images/biography-bg.png);
   background-repeat: no-repeat;
@@ -46,6 +58,7 @@ height:700px ;
 }
 .biography p{
   padding: 50px 0;
+  color: #838383;
 }
 .activity{
   width: 100%;
@@ -54,9 +67,7 @@ height:700px ;
 .half-width{
   width: 30%;
   float: left;
-  /* height: 700px; */
   margin: 50px;
-  /* padding: 100px 80px; */
   transform: translateX(30%);
 }
 .half-width img{
@@ -67,18 +78,15 @@ height:700px ;
     padding: 150px 50px;
 }
 .latest-work{
-  /* width: 100%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  align-content: center; */
-  /* transform: translateX(10%); */
+  background-image: url(images/latest-work-bg.png);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 51%;
   text-align: center;
   padding: 50px 15px;
 }
 .latest-work img{
   width: 20%;
-  /* display: inline-block; */
   padding: 10px 20px;
 }
 .latest-work h2{
@@ -99,8 +107,6 @@ height:700px ;
   padding: 5px 20px;
   margin-top: 60px;
 }
-
-
 .comment{
   width: 25%;
   margin: auto;
@@ -116,6 +122,13 @@ height:700px ;
   line-height: 2.5rem;
   border-radius: 10px;
   color: white;
+}
+footer{
+  background-image: url(images/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: 106% 88%;
+  background-position: 161% 216%;
+  
 }
 footer p{
   text-align: center;
