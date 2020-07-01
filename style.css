@@ -2,9 +2,13 @@
   margin: 0;
   padding: 0;
 }
+body{
+  /* font-family: 'Poppins', sans-serif; */
+font-family: 'Roboto', sans-serif;
+}
 section{
 
-height:600px ;
+height:700px ;
 }
 .intro{
   background-image: url(images/header-bg.png);
@@ -13,11 +17,35 @@ height:600px ;
   background-size: 100% 100%;
 
 }
+.intro h3{
+  font-size: 30px;
+  /* line-height: 40px; */
+}
+.intro h1{
+  font-size: 40px;
+  padding: 30px 0;
+  color: #EC4E8D;
+  
+}
+.intro p{
+  padding: 30px 0;
+  
+}
+.intro a, .biography a{
+  text-decoration: none;
+  background-color: #EC4E8D;
+  padding: 15px 40px;
+  border-radius: 5px;
+  color: white;
+}
 .biography{
   background-image: url(images/biography-bg.png);
   background-repeat: no-repeat;
   background-position: top;
   background-size: 100% 100%;
+}
+.biography p{
+  padding: 50px 0;
 }
 .activity{
   width: 100%;
@@ -61,6 +89,9 @@ height:600px ;
   margin: auto;
   text-align: center;
 }
+.client-info{
+  line-height: 2rem;
+}
 .client-response h1{
   padding: 50px 20px;
 }
@@ -68,26 +99,26 @@ height:600px ;
   padding: 5px 20px;
   margin-top: 60px;
 }
-}
-.client-response p{
 
-}
+
 .comment{
-  width: 20%;
+  width: 25%;
   margin: auto;
-  padding:0 0;
+  padding:30px 0;
+  
 }
 .contact{
   margin-top: 50px;
-  width: 30%;
+  width: 40%;
   margin: 50px auto;
   height: 100px;
-  background-color: yellow;
-  line-height: 1.5rem;
+  background-color: #EC4B73;
+  line-height: 2.5rem;
   border-radius: 10px;
+  color: white;
 }
 footer p{
   text-align: center;
   padding-top: 200px;
-  padding-bottom: 10px;
+  padding-bottom: 100px;
 }
