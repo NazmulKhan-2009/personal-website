@@ -13,13 +13,12 @@ height:700px ;
 .intro{
   background-image: url(images/header-bg.png);
   background-repeat: no-repeat;
-  /* background-position:top; */
   background-size: 100% 100%;
 
 }
 .intro h3{
   font-size: 30px;
-  /* line-height: 40px; */
+  
 }
 .intro h1{
   font-size: 40px;
@@ -68,9 +67,7 @@ height:700px ;
 .half-width{
   width: 30%;
   float: left;
-  /* height: 700px; */
   margin: 50px;
-  /* padding: 100px 80px; */
   transform: translateX(30%);
 }
 .half-width img{
@@ -84,13 +81,12 @@ height:700px ;
   background-image: url(images/latest-work-bg.png);
   background-repeat: no-repeat;
   background-position: top;
-    background-size: 100% 51%;
-    text-align: center;
+  background-size: 100% 51%;
+  text-align: center;
   padding: 50px 15px;
 }
 .latest-work img{
   width: 20%;
-  /* display: inline-block; */
   padding: 10px 20px;
 }
 .latest-work h2{
@@ -111,8 +107,6 @@ height:700px ;
   padding: 5px 20px;
   margin-top: 60px;
 }
-
-
 .comment{
   width: 25%;
   margin: auto;
