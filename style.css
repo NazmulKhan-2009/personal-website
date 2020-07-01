@@ -29,6 +29,7 @@ height:700px ;
 }
 .intro p{
   padding: 30px 0;
+  color: #838383;
   
 }
 .intro a, .biography a{
@@ -46,6 +47,7 @@ height:700px ;
 }
 .biography p{
   padding: 50px 0;
+  color: #838383;
 }
 .activity{
   width: 100%;
